@@ -1,0 +1,16 @@
+{
+  "name": "node-18-typescript-4.9",
+  "build": {
+    "dockerfile": "./Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.js-debug",
+        "Orta.vscode-jest"
+      ],
+      "settings": {}
+    }
+  }
+}
